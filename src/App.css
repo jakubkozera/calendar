@@ -1,33 +1,99 @@
-.App {
+.App .react-datepicker__current-month{
+  color: #fff;
+  font-family: Muli;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.29;
+  letter-spacing: normal;
   text-align: center;
+  color: #ffffff;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.App .react-datepicker {
+	border-radius: 0px;
+  color: #ffffff;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.App .react-datepicker__day-names {
+	background-color: #2f7d33;
+  margin-top: 10px;
+  width: 284px;
+}
+.App .react-datepicker__day-name {
+  width: 14.2%;
+  font-family: Muli;
+}
+.App .react-datepicker__day-name {
+	font-size: 11px;
+	font-style: normal;
+	font-stretch: normal3B;
+	line-height: 0.76;
+	letter-spacing: normal;
+	color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.App-link {
-  color: #61dafb;
+.App .react-datepicker__day {
+  border: solid 0.4px #d3d3d3;
+  text-align: center;
+  line-height: 2.5rem;
+  font-family: Muli;
+	margin: 0;
+  width: 14%;
+	height: 40.6px;
+}
+.App .react-datepicker__day--keyboard-selected{
+  font-weight: normal;
+  color: #ffffff;
+  border-radius: 0;
+}
+.App .react-datepicker__header {
+	font-family: Muli;
+	font-size: 14px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.29;
+	letter-spacing: normal;
+	color: #ffffff;
+	background-color: #595959;
+	text-align: center;
+	border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom: 0px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App .react-datepicker__day--selected {
+	border-radius: 0px;
+	background-color: #0177bd;
+	color: #ffffff;
+	font-weight: normal;
+}
+
+.App .react-datepicker__day {
+	margin: 0;
+}
+.App .react-datepicker__day:hover {
+  border-radius: 0;
+  border: solid 0.4px #a2a2a2;
+
+  background-color: #ffffff;
+  color: #000;
+}
+.App .react-datepicker__month {
+	margin: 0px;
+}
+
+.App .react-datepicker__day--outside-month {
+	background-color: #ededed;
+	color: #4a4a4a;
+}
+
+.App .react-datepicker__today-button {
+	background-color: #ffffff;
+	padding: 10px;
+	font-weight: normal;
 }
