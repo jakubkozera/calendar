@@ -1,3 +1,13 @@
+.App{
+  margin-left:200px;
+}
+.App .react-datepicker-popper {
+  left: -125px !important;
+}
+.App .react-datepicker__triangle {
+  display: none;
+}
+
 .App  div.react-datepicker__month > div:nth-child(1) .react-datepicker__day:hover{
   border-radius: 0;
   border: solid 0.2px #a2a2a2;
